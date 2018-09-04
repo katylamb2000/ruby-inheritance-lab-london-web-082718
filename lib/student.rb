@@ -8,4 +8,8 @@ class Student < User
     @last_name = last_name
     @knowledge = []
   end
+  
+  def learn (knowledge)
+    @knowledge << knowledge
+  end
 end
